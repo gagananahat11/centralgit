@@ -1,4 +1,4 @@
 # centralgit
 code for music
 <br>
-author- gaganpreet
+author- gaganpreet singh
