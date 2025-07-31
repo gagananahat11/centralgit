@@ -5,7 +5,8 @@ pipeline {
         stage('Clone Repo') {
             steps {
                 // Clone your GitHub repo (replace URL with your repo)
-                git url: 'https://github.com/gagananahat11/centralgit.git'
+              git url: 'https://github.com/gagananahat11/centralgit.git', credentialsId: 'github-pat'
+
             }
         }
         
